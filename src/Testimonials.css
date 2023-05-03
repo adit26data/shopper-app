@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400;600;700&display=swap');
+
+#testimonials {
+    text-align: center;
+    background-image: linear-gradient(to right, #200122, #6f0000);
+    color: white;
+    font-weight: bold;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-text {
+    font-family: 'Dancing Script';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.dog {
+    border-radius: 10rem;
+    width: 10%;
+    margin: 20px;
+}
+
+
+
+.testimonial-image {
+    border-radius: 10rem;
+    width: 10%;
+    margin: 20px;
+}
+
+.testimonials-heading {
+    font-family: 'Dancing Script';
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.testi {
+    margin-bottom: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    visibility: hidden;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    visibility: visible
+}

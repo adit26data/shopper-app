@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400;600;700&display=swap');
+
+.header {
+    padding: 0px;
+    margin: 0;
+    background-color: solid white;
+
+}
+
+.d-flex {
+    height: 30px;
+}
+
+.navbar {
+    background-color: solid white;
+    position: sticky;
+    top: 0;
+}
+
+.btn {
+    height: 40px;
+    border: white;
+    position: sticky;
+    top: 0;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.header__searchIcon {
+    position: relative;
+    top: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+    margin-top: 0;
+    position: sticky;
+    top: 0;
+    font-family: serif;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

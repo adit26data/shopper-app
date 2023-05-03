@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@400;600;700&display=swap');
+
+body {
+    height: 700px;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 0 85% 85% / 30%;
+}
+
+header .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: url('https://www.valentinosdisplays.com/blog/wp-content/uploads/2022/02/non-slip-coat-hangers-1200x800.jpg');
+
+}
+
+h1 {
+    font-family: serif, cursive;
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+h3,
+p {
+    font-family: 'Open Sans', serif;
+    margin-bottom: 30px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #333;
+    background: #fff;
+    margin-bottom: 0px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.para {
+    color: white
+}

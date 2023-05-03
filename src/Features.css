@@ -1,0 +1,36 @@
+.row_features {
+    background-image: none;
+    background-color: white;
+}
+
+.features {
+    background-color: azure;
+}
+
+.feature-box {
+    background-image: none;
+    background-color: white;
+
+}
+
+.icon-cart {
+    transform: scale(1.8);
+
+}
+
+.rowsecondary {
+    padding: 5% 20% 5% 15%;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.para-feature {
+    color: #8f8f8f;
+
+}
+
+.feature-box {
+    text-align: center;
+}
