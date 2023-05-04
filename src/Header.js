@@ -2,14 +2,16 @@ import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import './Header.css'
+import { useStateValue } from "./stateProvider";
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 function Header() {
+    const [{ basket, user }, dispatch] = useStateValue();
     return (
         <div className="header">
             <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Shopper!</a>
+                    <a className="navbar-brand" href="/home">Shopper!</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -22,10 +24,10 @@ function Header() {
                                 <a className="nav-link active" aria-current="page" href="/">Sign In</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Your Orders!</a>
+                                <a className="nav-link" href="/checkout">Your Orders!</a>
                                 <ShoppingCartIcon />
                                 <span className="header__optionLineTwo header__basketCount">
-                                    0
+                                    {basket?.length}
                                 </span>
                             </li>
                             <li className="nav-item dropdown">

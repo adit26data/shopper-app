@@ -12,6 +12,7 @@ import Purses from './Purses'
 import Casuals from './Casuals';
 import Login from './Login'
 import Register from './Register'
+import Checkout from './Checkout'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 function App() {
     return (
@@ -64,6 +65,12 @@ function App() {
                 </Routes>
                 <Routes>
                     <Route path="/casuals" element={<Casuals />} />
+                </Routes>
+                <Routes>
+                    <Route path="/checkout" element={<Header />} />
+                </Routes>
+                <Routes>
+                    <Route path="/checkout" element={<Checkout />} />
                 </Routes>
             </BrowserRouter>
         </div >
